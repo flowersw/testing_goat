@@ -5,6 +5,7 @@ from django.http import HttpResponse
 from django.template.loader import render_to_string
 
 from lists.views import home_page
+from lists.models import Item
 
 
 class HomePageTest(TestCase):
