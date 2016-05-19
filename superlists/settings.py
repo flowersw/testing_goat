@@ -27,7 +27,7 @@ DEBUG = False
 
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = ['willflowers.space']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
