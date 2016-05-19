@@ -23,9 +23,11 @@ BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 SECRET_KEY = '^mb)2^ldx6v)(vzn7zw4v(i7g9#rj3u1(_xdxx-y*+kj#!01+a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+TEMPLATE_DEBUG = DEBUG
+
+ALLOWED_HOSTS = ['willflowers.space']
 
 
 # Application definition
